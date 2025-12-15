@@ -254,7 +254,23 @@ Auditing must move closer to where reasoning actually happens—or risk becoming
 
 
 
+---
+
+### Clarification
+
+In this document, “the GPU world” refers broadly to accelerator-side inference substrates
+(including GPUs, TPUs, and other specialized hardware),
+as opposed to CPU / API / output-level auditing.
+
+The distinction is epistemic, not vendor-specific.
+
+---
+
+
 Author’s Note
+
+
+
 
 
 
