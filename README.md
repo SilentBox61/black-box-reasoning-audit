@@ -264,6 +264,16 @@ as opposed to CPU / API / output-level auditing.
 
 The distinction is epistemic, not vendor-specific.
 
+### Scope Note
+
+This document does not claim that “reasoning” exists exclusively at the accelerator layer.
+Rather, it argues a boundary condition for credible reasoning audits:
+
+If an audit entirely excludes accelerator-side execution dynamics (non-determinism, precision behavior, kernel scheduling and compiler/runtime effects), it cannot reliably separate genuine decision dynamics from post-hoc narratives.
+
+Multi-layer audits (data, architecture, training, alignment) are necessary.
+This document argues they are not sufficient unless the inference substrate is included.
+
 ---
 
 
