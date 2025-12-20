@@ -1,3 +1,5 @@
+**Status:** Anchor-0 published on X.
+
 Why Reasoning Audits Must Be Conducted in the GPU World
 
 Abstract
