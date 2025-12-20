@@ -289,4 +289,14 @@ This document is intended as a conceptual anchor for GPU-grounded reasoning audi
 It does not propose a specific implementation, but establishes a necessary boundary condition:
 
 No serious reasoning audit can be hardware-agnostic.
+## Status
+
+This repository documents an initial audit case and a methodological position.
+
+Further audit cases will be released incrementally, focusing on:
+- directional convergence under uncertainty
+- accelerator-side inference constraints
+- responsibility gaps in decision-support deployments
+
+This repository is intentionally minimal at this stage.
 
